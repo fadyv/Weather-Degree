@@ -1,0 +1,58 @@
+nav img{
+    width: 100px;
+}
+
+.nav-item a{
+    font-size: small;
+}
+
+.nav-item a:hover {
+    border-radius: 20px;
+    border: rgb(255, 170, 11) solid 1px;
+    color:rgb(207, 151, 47) !important;
+    transition: 0.2s all;
+
+}
+
+.active{
+    border-radius:50px;
+    border: rgb(255, 170, 11) solid 1px;
+    color:rgb(207, 151, 47) !important;
+}
+
+
+/* ---------------start home-------------------- */
+#home{
+    background-color: black;
+    
+}
+
+
+.form-control:focus {
+    box-shadow: none;
+  }
+
+  .text-gray{
+    color: #bfc1c8;
+  }
+  
+  .bg-gray{
+    background-color: #000000;
+  }
+  .fs-larger{
+    font-size: 5rem;
+  }
+
+  @media screen and (max-width:514px ) and (min-width:100px ){
+    .fs-larger{
+        font-size: 3rem;
+      } 
+
+      .active {
+        margin-top: 12px;
+      }
+
+      nav img{
+        width: 50px;
+    }
+    }
